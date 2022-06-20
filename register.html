@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="register.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <title>FIX</title>
+    </head>
+<body>
+    <div class="wrapper">
+        <a href="/" class="logo"><span>FIX</span>eCommerce</a>
+        <div class="form">
+            <form action="" class="register_form" method="post">
+                <input type="text" class="def_input" placeholder="Email"><br>
+                <input type="text" class="def_input" placeholder="Имя"><br>
+                <input type="password" class="def_input" placeholder="Пароль"><br>
+                <input type="password" class="def_input" placeholder="Подтвердите пароль"><br>
+                <button type="submit" class="user_button">Регистрация</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".def_input").css('margin-bottom', '35px')
+            $(".def_input").last().css('margin-bottom', '20px')
+
+        });
+    </script>
+</body>
+</html>
