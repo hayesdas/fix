@@ -1,0 +1,163 @@
+body{
+    background: #FAFAFA;
+    padding: 0;
+    margin: 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+}
+.wrapper{
+    padding-top: 32px;
+}
+.logo{
+    margin-left: 52px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.logo span{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.main_block{
+    height: 606px;
+}
+.main_group{
+    text-align: center;
+    margin-top: 150px;
+    transition: 0.7s;
+    transform: translateY(100px);
+}
+.medium{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    margin-bottom: 14px;
+    color: #0D0D0D;
+}
+.dd_main{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 35px;
+    color: #202020;
+}
+.main_button{
+    cursor: pointer;
+    width: 180px;
+    height: 54px;
+    background: #12695A;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    border: none;
+    transition: 0.2s;
+    color: #FFFFFF;
+}
+.main_button:hover{
+    opacity: 0.9;
+}
+.complex_block{
+    position: relative;
+    width: 100%;
+    height: 544px;
+    background: #535353;
+}
+.complex_block .medium{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    /* identical to box height */
+    padding-top: 35px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.info_blocks{
+    display: flex;
+    margin-top: 114px;
+    margin-left: 150px;
+}
+.info_block{
+    max-width: 413px;
+}
+.info_block:first-child{
+    margin-right: 222px;
+}
+.info_block_name{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 33px;
+    color: #FFFFFF;
+}
+.info_block_desc{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+.rev_block{
+    height: 389px;
+    background: #F1F1F1;
+}
+.rev{
+    width: 961px;
+    height: 76px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #0D0D0D;
+    padding-top: 89px;
+    margin: 0 auto 72px;
+}
+.rev_author{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #535353;
+}
+.rev_author a{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+    border-bottom: 2px solid currentColor;
+    color: #535353;
+}
+.end_block{
+    height: 293px;
+}
+.end_block_content{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    /* identical to box height */
+    padding-top: 117px;
+    text-align: center;
+    align-items: center;
+    color: #0D0D0D;
+}
+.end_block_content button{
+    margin-left: 42px;
+}
